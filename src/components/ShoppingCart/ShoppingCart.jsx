@@ -5,7 +5,7 @@ export default function ShoppingCart() {
   return (
     <div>
        <div>
-        navbar
+        <h1>shopping cart page</h1>
 
        </div>
     </div>                 
