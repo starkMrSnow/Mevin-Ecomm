@@ -6,6 +6,7 @@ import { GoSearch } from "react-icons/go";
 import { VscAccount } from "react-icons/vsc";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoCartOutline } from "react-icons/io5";
+import vixen from '../../assets/vixen.png'
 
 
 export default function HomePage() {
@@ -24,7 +25,7 @@ export default function HomePage() {
       <div>
         <div className='top'></div>
         <div className='bottom'>
-          {/* <FaBars className='hamburger' /> */}
+          <FaBars className='hamburger' />
           <img src={logo} alt="Logo" className="logo" />
 
           <div className="search-bar">
@@ -52,8 +53,23 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div>
-        body
+      <div className='rectangle'>
+    
+        <div className="grid-container">
+      <div className="grid-item left-grid">
+            <h5>Today's pick</h5>
+            <h3 className='w'>WOMEN'S WEAR</h3>
+            <h6 className='offer'>GET 70% OFF</h6>
+            <div className='btn'>
+                <button className='btnOne'>ORDER NOW</button>
+                <button className='btnTwo'>VIEW MORE</button>
+            </div>
+      </div>
+      <div className="grid-item right-grid">
+      <img src={vixen} alt="vixen" className='vixen' />
+      </div>
+    </div>
+    
       </div>
 
       <div>

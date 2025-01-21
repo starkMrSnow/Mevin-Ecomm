@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
 .top {
     background-color: #1B75AE;
     height: 6vh;
@@ -16,7 +18,7 @@
     font-size: 40;
     color: black;
     position: relative;
-    padding-top: 4vw;
+    padding-top: 1vw;
     padding-right: 1vw;
     padding-left: 0.5vw;
 }
@@ -61,7 +63,7 @@
 
 .search-bar .search-button:hover {
     background-color: #1b5d89;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .search-bar .search-button:active {
@@ -96,3 +98,89 @@ h6{
     font-size: 2vw;
     margin-left: 1vw;
 }
+.rectangle{
+    margin-top: 5vh;
+    background-color: #cbc7fa;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+.vixen{
+    width: 80%;
+    height: 75vh;
+    position: relative;
+    margin-right: -10vw;
+    
+}
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 65vh; 
+  }
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  
+  .left-grid {
+    background-color: #D9D9D9; 
+    position: relative;
+    align-items: center;
+  }
+  
+ 
+  .right-grid {
+    background-color: #D9D9D9;
+  
+  }
+  h5{
+    color: #1B75AE;
+    font-family: 'Zeyada', cursive;
+    font-size: 4rem;
+    font-weight: 300;
+  }
+  .btn{
+    margin-top: 4vh;
+  }
+  .btnOne{
+    border-radius: 5px;
+    background-color:#1B75AE;
+    color: white;
+    margin-right: 2vw;
+  }
+  .btnTwo{
+    border-radius: 5px;
+  }
+  .btnOne:hover{
+    background-color: #1b5d89;
+    transform: scale(1.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .btnTwo:hover{
+    background-color: #7f8182;
+    transform: scale(1.1);
+    transition: background-color 0.4s ease, transform 0.4s ease;
+  }
+  .btnOne:active {
+    background-color: #6ba8ce;
+    transform: scale(1);
+}
+.btnTwo:active {
+        background-color: #dee9f0; /* Change to a different shade on click */
+        transform: scale(1);
+}
+  .w{
+    font-size: larger;
+  }
+  .offer{
+    font-size: medium;
+  }
