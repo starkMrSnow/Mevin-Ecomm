@@ -4,7 +4,11 @@
     background-color: #1B75AE;
     height: 6vh;
 }
-
+body, html {
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    box-sizing: border-box;
+  }
 .bottom {
     height: 10vh;
     display: flex;
@@ -99,18 +103,23 @@ h6{
     margin-left: 1vw;
 }
 .rectangle{
-    margin-top: 5vh;
-    background-color: #cbc7fa;
+    margin-top: 0;
     height: 75vh;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: flex-end;
-    padding-right: 0;
 }
+.content {
+    margin-top: 2rem; /* Space after .rectangle */
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    font-family: 'Zeyada', cursive;
+  }
 .vixen{
     width: 80%;
-    height: 75vh;
+    height: 70vh;
     position: relative;
     margin-right: -10vw;
     
@@ -132,14 +141,14 @@ h6{
   
   
   .left-grid {
-    background-color: #D9D9D9; 
+    background-color: #e8e8f1; 
     position: relative;
     align-items: center;
   }
   
  
   .right-grid {
-    background-color: #D9D9D9;
+    background-color: #e8e8f1;
   
   }
   h5{
@@ -166,7 +175,7 @@ h6{
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
   .btnTwo:hover{
-    background-color: #7f8182;
+    background-color: #808089;
     transform: scale(1.1);
     transition: background-color 0.4s ease, transform 0.4s ease;
   }
