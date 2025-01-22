@@ -7,6 +7,7 @@ import { VscAccount } from "react-icons/vsc";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoCartOutline } from "react-icons/io5";
 import vixen from '../../assets/vixen.png';
+import man from '../../assets/man.png'
 
 export default function HomePage() {
   const [query, setQuery] = useState('');
@@ -69,8 +70,22 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="content">
-        <p>stanley</p>
+      <div className="content grid-containerTwo">
+        <div className='grid item leftGrid'>
+            <div className='align-col'>
+            <img src={man} alt="men's advert" className="Man" />
+            <div className='pos'>
+                <p className='Style'>Fresh picks</p>
+                <p className='sentence'>FASHION FOR HIM</p>
+                <p className='sentence-two'>Save 50% now !!</p>
+                <button className='man-btn'>ORDER NOW</button>
+            </div>
+            </div>
+        </div>
+        <div className='rightGrid'>
+
+        </div>
+       
       </div>
     </>
   );

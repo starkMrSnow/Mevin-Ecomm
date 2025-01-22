@@ -111,11 +111,10 @@ h6{
     align-items: center;
 }
 .content {
-    margin-top: 2rem; /* Space after .rectangle */
+    margin-top: 1.5rem; /* Space after .rectangle */
     text-align: center;
-    font-size: 1.5rem;
-    color: #333;
-    font-family: 'Zeyada', cursive;
+    font-size: 1rem;
+
   }
 .vixen{
     width: 80%;
@@ -193,3 +192,68 @@ h6{
   .offer{
     font-size: medium;
   }
+  .grid-containerTwo{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh; 
+    gap: .8rem;
+  }
+  .leftGrid {
+    background-color: #cbcccf; 
+    position: relative;
+    align-items: center;
+    border:1px solid black;
+    border-radius: 2px;
+    /* box-shadow: 0 9px 8px rgba(108, 97, 184, 0.2) */
+  }
+  
+ 
+  .rightGrid {
+    background-color: #e8e8f1;
+  
+  }
+  .Man{
+    height: 51vh;
+    width: 17vw;
+    position: relative;
+    margin-top: -2vh;
+    margin-left: 6vw;
+    
+  }
+  .align-col{
+    display: flex;
+    flex-direction: column;
+  }
+  .pos{
+    margin-top: -17vw;
+    margin-left: 15vw;
+  }
+  .Style{
+    font-family: 'Zeyada', cursive;
+    font-size: 2rem;
+    font-weight: 300;
+
+  }
+  .sentence{
+    font-size: large;
+    font-weight: 600;
+    margin-bottom: 2vh;
+  }
+  .sentence-two{
+    font-weight: 500;
+    margin-bottom: 4vh;
+  }
+  .man-btn{
+    border: #1b5d89 solid 1.5px;
+    border-radius: 2px;
+    background-color: #F5EFEF;
+    padding: .4rem 1rem;
+  }
+  .man-btn:hover{
+    background-color: rgb(242, 192, 127);
+    transform: scale(1.1);
+    transition: background-color 0.5s ease, transform 0.5s ease;
+    
+  }
+  
