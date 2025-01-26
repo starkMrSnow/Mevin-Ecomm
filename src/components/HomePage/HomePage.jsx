@@ -83,7 +83,11 @@ export default function HomePage() {
             </div>
         </div>
         <div className='rightGrid'>
-
+        <div className="upper-grid">
+        <div className="grid-part-one">Part One</div>
+        <div className="grid-part-two">Part Two</div>
+  </div>
+        <div className="lower-grid">Part Three</div>
         </div>
        
       </div>

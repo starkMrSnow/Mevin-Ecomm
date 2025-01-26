@@ -196,26 +196,71 @@ h6{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 50vh; 
+    /* height: 65vh;  */
     gap: .8rem;
   }
   .leftGrid {
+    margin-top: 1rem;
+    height: 57.5vh;
     background-color: #cbcccf; 
     position: relative;
     align-items: center;
-    border:1px solid black;
-    border-radius: 2px;
-    /* box-shadow: 0 9px 8px rgba(108, 97, 184, 0.2) */
+    border:1px solid rgba(54, 52, 52, 0.162);
+    border-radius: 5px;
+    box-shadow: 0 9px 8px rgba(20, 20, 20, 0.2);
   }
-  
- 
   .rightGrid {
-    background-color: #e8e8f1;
+    height: 50vh;
+    background-color: white;
+    display: grid;
+    grid-template-rows:  auto auto 1fr;
+    gap: 1rem; /* Space between grids */
+    padding: 1rem;
+  }
+  .upper-grid {
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    display: grid;
+    gap: 1rem; /* Space between the two grids in the upper part */
+  }
+  .grid-part-one,
+.grid-part-two {
+  width: 18rem; 
+  height: 10rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 5px;
+}
   
+  .grid-part-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dcd5bc;
+  }
+  .grid-part-two{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #c19a9a; 
+  }
+  .lower-grid {
+    margin-bottom: 0;
+    /* margin-top: 1rem; */
+    height: 10rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #f0d891;
+    border-radius: 5px;
+    
   }
   .Man{
-    height: 51vh;
-    width: 17vw;
+    height: 59vh;
+    width: 19vw;
     position: relative;
     margin-top: -2vh;
     margin-left: 6vw;
@@ -251,9 +296,13 @@ h6{
     padding: .4rem 1rem;
   }
   .man-btn:hover{
-    background-color: rgb(242, 192, 127);
+    background-color: rgb(252, 243, 86);
     transform: scale(1.1);
     transition: background-color 0.5s ease, transform 0.5s ease;
     
   }
-  
+  .man-btn:active{
+    background-color: rgb(41, 209, 247);
+    transform: scale(1.0);
+   
+  }
