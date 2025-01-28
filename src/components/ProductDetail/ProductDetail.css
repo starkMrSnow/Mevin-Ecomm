@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Lilita+One&family=Outfit:wght@100..900&display=swap');
+.product-deatil-headers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-deatil-headers p{
+    margin-left: 40px;
+    font-family: "Grandiflora One", serif;
+    
+}
+.select{
+    /* color: rgb(182, 166, 166); */
+}
